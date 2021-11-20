@@ -11,7 +11,7 @@ sources:
       - name: orders
         loaded_at_field: _etl_loaded_at
         freshness:
-          warn_after: {count: 88, period: hour}
-          error_after: {count: 92, period: hour}
+          warn_after: {count: 1004, period: hour}
+          error_after: {count: 1005, period: hour}
         columns:
           - name: id
